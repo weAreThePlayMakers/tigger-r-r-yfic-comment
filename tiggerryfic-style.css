@@ -1,0 +1,35 @@
+:root {
+    background: black
+}
+
+text {
+    fill: white;
+    font: 60px sans-serif;
+    font-weight: 900;
+    text-anchor: middle;
+    pointer-events: none
+}
+
+#about {
+    pointer-events: visiblePainted;
+}
+
+a {
+    fill: #4096EE;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.button:hover {
+    filter: url(#huerot80)
+}
+
+.button:active {
+    filter: url(#huerot50)
+}
+
+#about {
+    font-size: 12px
+}
