@@ -2,4 +2,4 @@
 
 cause with us Tiggers you gotta read betwixt the lines
 
-[![](img/tigger.svg)]()
+![](img/tigger.svg)
