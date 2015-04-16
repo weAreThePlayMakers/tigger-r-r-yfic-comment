@@ -1,35 +1,35 @@
-:root {
-    background: black
+main {
+	height: 550px;
+}
+#box {
+  margin: 20px auto;
+  width: 50%;
+  height: 300px;
+  background-color: #DDD;
+  padding: 0 20px;
+  white-space: nowrap;
+  animation: resize 5s infinite;
+}
+#center {
+  vertical-align: middle;
+  display: inline-block;
+  white-space: normal;
+}
+#box:after {
+  content: "";
+  width: 1px;
+  height: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: -10px;
 }
 
-text {
-    fill: white;
-    font: 60px sans-serif;
-    font-weight: 900;
-    text-anchor: middle;
-    pointer-events: none
-}
-
-#about {
-    pointer-events: visiblePainted;
-}
-
-a {
-    fill: #4096EE;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.button:hover {
-    filter: url(#huerot80)
-}
-
-.button:active {
-    filter: url(#huerot50)
-}
-
-#about {
-    font-size: 12px
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font-size: 13px;
+  background: #DDD;
+  padding: 5px 10px;
+  margin: 5px;
 }
