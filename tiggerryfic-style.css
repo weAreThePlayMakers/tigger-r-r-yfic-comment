@@ -1,35 +1,39 @@
-main {
-	height: 550px;
+.block {
+  text-align: center;
+  margin: 20px;
 }
-#box {
-  margin: 20px auto;
-  width: 50%;
-  height: 300px;
-  background-color: #DDD;
-  padding: 0 20px;
-  white-space: nowrap;
-  animation: resize 5s infinite;
-}
-#center {
-  vertical-align: middle;
+
+.block:before {
+  content: '';
   display: inline-block;
-  white-space: normal;
-}
-#box:after {
-  content: "";
-  width: 1px;
   height: 100%;
   vertical-align: middle;
+  margin-right: -0.25em;
+ }
+
+.centered {
   display: inline-block;
-  margin-right: -10px;
+  vertical-align: middle;
+  width: 90%;
+	height: 480px;
+  padding: 10px 15px;
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  font-size: 13px;
-  background: #DDD;
+  position: absolute;
+  z-index: 1;
+  bottom: 5px;
+  right: 50px;
+	width: 120px;
+  background: rgba(0, 0, 0, 0.0);
   padding: 5px 10px;
   margin: 5px;
+	text-align: center;
+  font-size: 12px;
+}
+
+.zorro {
+  width: 115px;
+  height: 55px;
+  background: #fff;
 }
