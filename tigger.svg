@@ -16,5 +16,7 @@
         </audio>
     </defs>
     <use xlink:href="#tigger"
-    onmouseover="$('audio').play(); $('audio').loop=true;" onmouseout="$('audio').pause(); try { $('audio').currentTime=0; } catch(e) {} $('audio').loop=false;"/>
+    onmouseover="$('audio').play(); $('audio').loop=false;" />
 </svg>
+
+onmouseout="$('audio').pause(); try { $('audio').currentTime=0; } catch(e) {} $('audio').loop=false;"
